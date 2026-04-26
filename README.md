@@ -119,15 +119,20 @@ Raw Sources → Ingestion → PostgreSQL (Raw) → dbt → PostgreSQL (Analytics
 
 ---
 
-### 🔹 HR Attendance & Cost Dashboard
-> Automated reporting replacing 80% of manual work
+### 🔹 FMCG Sales Analytics & Reporting Suite
 
-**Stack:** Power BI · DAX · PostgreSQL
+Production-grade Power BI reporting system for end-to-end sales and operations analytics.
 
-- Live dashboards tracking headcount, attendance, and cost metrics
-- Reduced manual reporting effort by **80%**
+Stack: Power BI · DAX · PostgreSQL · dbt · GitHub Actions
 
-🔗 [View Repository](https://github.com/psrinathmanoj/data-analytics-portfolio#5-hr-attendance--cost-analysis)
+• Built multi-page dashboards covering Primary, Secondary, and Sub-distributor sales  
+• Implemented dynamic filtering, multi-view toggles, and drilldowns (Zone → Product → Group)  
+• Designed KPI-driven executive summary with cost & performance tracking  
+• Integrated RLS-based access control synced with Bizom user system  
+• Enabled automated daily refresh using dbt + Power BI REST API  
+• Delivered trend analysis with monthwise and cumulative views  
+
+🔗 https://github.com/psrinathmanoj/Power-BI-Semantic-Model-FMCG-Sales-Operations
 
 ---
 
