@@ -132,7 +132,7 @@ Stack: Power BI · DAX · PostgreSQL · dbt · GitHub Actions
 • Enabled automated daily refresh using dbt + Power BI REST API  
 • Delivered trend analysis with monthwise and cumulative views  
 
-🔗 [View Repository](https://github.com/psrinathmanoj/Power-BI-Semantic-Model-FMCG-Sales-Operations)
+🔗 [View Repository](https://github.com/psrinathmanoj/Power-BI-Sales-Reporting-Suite-FMCG)
 
 ---
 
