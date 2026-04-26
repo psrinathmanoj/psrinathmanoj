@@ -91,15 +91,19 @@ Raw Sources → Ingestion → PostgreSQL (Raw) → dbt → PostgreSQL (Analytics
 
 ---
 
-### 🔹 Fabric Cloud Data Integration
-> Tally → Data Lake → Power BI with PySpark and Star Schema
+### 🔹 Power BI Semantic Model — FMCG Sales & Operations
+> Production-grade Power BI semantic model built on top of a dbt-modelled PostgreSQL warehouse for FMCG sales, attendance, journey compliance, payroll, indents, and outstanding analysis
 
-**Stack:** Microsoft Fabric · PySpark · Power BI
+**Stack:** Power BI Semantic Model · PostgreSQL · dbt · DAX · RLS · Power BI REST API
 
-- Automated pipeline from Tally ERP to cloud data lake
-- Designed Star Schema for analytics-ready consumption in Power BI
+- Built a centralized semantic model for multiple Power BI reports
+- Designed star-schema relationships across sales, attendance, journey, payroll, indent, claims, and outstanding fact tables
+- Created **90+ DAX measures** organized into business-domain display folders
+- Implemented **Row-Level Security (RLS)** using `USERPRINCIPALNAME()` and Bizom-synced access control
+- Added incremental refresh for large fact tables to reduce refresh time
+- Enabled reusable, governed reporting across FMCG sales and operations dashboards
 
-🔗 [View Repository](https://github.com/psrinathmanoj/data-analytics-portfolio#4-fabric-based-cloud-data-integration-for-tally)
+🔗 [View Repository](https://github.com/psrinathmanoj/Power-BI-Semantic-Model-FMCG-Sales-Operations)
 
 ---
 
