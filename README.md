@@ -107,18 +107,6 @@ Raw Sources → Ingestion → PostgreSQL (Raw) → dbt → PostgreSQL (Analytics
 
 ---
 
-### 🔹 AppSheet Primary Indent System
-> End-to-end order validation and distributor notification workflow
-
-**Stack:** AppSheet · WhatsApp API · Bizom
-
-- No-code workflow handling order validation and real-time distributor notifications
-- Reduced order processing errors and manual follow-ups significantly
-
-🔗 [View Repository](https://github.com/psrinathmanoj/data-analytics-portfolio#3-appsheet--primary-indent-processing-system)
-
----
-
 ### 🔹 FMCG Sales Analytics & Reporting Suite
 
 Production-grade Power BI reporting system for end-to-end sales and operations analytics.
